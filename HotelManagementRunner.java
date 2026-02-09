@@ -1,6 +1,5 @@
 class HotelManagementRunner {
     public static void main(String[] args) {
-
         HotelManagement.hotelInfo("panjurli","Balehonnuru",44,5214637890L,4.5);
         HotelManagement.hotelInfo("Green Leaf", "Chikkamagaluru", 12, 9000012222L, 3.8);
         HotelManagement.hotelInfo("Spice Route", "Mudigere", 13, 9000013333L, 4.3);
@@ -21,9 +20,7 @@ class HotelManagementRunner {
         HotelManagement.hotelInfo("City Delight", "Bengaluru", 28, 9000029999L, 4.6);
         HotelManagement.hotelInfo("Heritage Hotel", "Mysuru", 29, 9000031111L, 4.9);
         HotelManagement.hotelInfo("Temple Treats", "Dharmasthala", 30, 9000032222L, 4.2);
-
         HotelManagement.hotelInfo("Mountain Meals", "Sakleshpur", 60, 9000000030L, 4.2);
-
         HotelManagement.hotelInfo("Sunrise Cafe", "Madikeri", 31, 9000000031L, 3.9);
         HotelManagement.hotelInfo("Pepper Pot", "Virajpet", 32, 9000000032L, 4.5);
         HotelManagement.hotelInfo("Valley View", "Somwarpet", 33, 9000000033L, 4.0);

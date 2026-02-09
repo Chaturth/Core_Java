@@ -5,7 +5,8 @@ class Fibonacci {
 
         System.out.print(a + " " + b + " ");
 
-        for (int i = 2; i < numbers; i++) {
+        for (int i = 2; i < numbers; i++)
+			{
             int c = a + b;
             System.out.print(c + " ");
             a = b;

@@ -1,3 +1,12 @@
 //Doctor --> treat(String name,String symptom); Nurse --> basicCheck(String patientName,String symptom,int bp,boolean sugar); Hospital--> bookAppointment(String patientName,String symptom); Reception--> book(String patientName,String symptom,String email,long mobile) Mobile --> register(String patientName,String symptom,String email,long mobile) Patient--> sick() PatientRunner Complete Feb 6 th Best Of HardWork
+class Hospital{
+	static void bookAppointment(String patientName,String symptom)
+	{
+		System.out.println("book an appointment ");
+		Nurse.basicCheck(patientName,symptom,5,false);
+	}
+	
+}
 
-class Mobile{
+
+           
