@@ -7,7 +7,7 @@ class Patient{
 		String symptom="fever";
 		String email="lokesh@gmil.com";
 		long mobile=1236547890L;
-		System.out.println("person have sickness");
+		System.out.println(" yes this person have sickness");
 		Mob.register(patientName, symptom, email, mobile);
 	}
 }

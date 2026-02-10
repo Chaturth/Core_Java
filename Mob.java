@@ -3,7 +3,7 @@
 class Mob{
 	static void register(String patientName,String symptom,String email,long mobile)
 	{
-		System.out.println("Register with the mobile number");
+		System.out.println("Register with the mobile number....");
 		System.out.println("email:"+email);
 		System.out.println("mobileno:"+mobile);
 		Reception.book(patientName,symptom,email,mobile);

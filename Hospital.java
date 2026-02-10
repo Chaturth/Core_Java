@@ -2,8 +2,8 @@
 class Hospital{
 	static void bookAppointment(String patientName,String symptom)
 	{
-		System.out.println("book an appointment ");
-		Nurse.basicCheck(patientName,symptom,5,false);
+		System.out.println("book an appointment to checkup: ");
+		Nurse.basicCheck(patientName,symptom,50,false);
 	}
 	
 }
