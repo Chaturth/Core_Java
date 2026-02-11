@@ -3,13 +3,26 @@
 class Ocean{
 	static void sea(String name, String location, int depth,double area,boolean isSaltWater)
 	{
+
 		System.out.println("Name of the ocean:"+name);
+		 
+		 
 		System.out.println("Location of the ocean:"+location);
 		System.out.println("depth of the ocean:"+depth);
 		System.out.println("area of the ocean:"+area);
 		System.out.println("is it is salt water:"+isSaltWater);
+	
+	
+				 if(location==null){
+					 System.out.println("data is not valid");
+					 return;
+				 }
+				 
 	}
+    
+	
 }
+
 
 		
 	

@@ -39,9 +39,7 @@ class Kingdom{
         if (yearOfBirth > 0) {
             System.out.println("Year of Birth: " + yearOfBirth);
         }
-
-        
-
+ 
         if (armySize > 100) {
             System.out.println("Army Size: " + armySize);
         }
