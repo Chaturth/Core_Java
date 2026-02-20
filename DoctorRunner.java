@@ -183,33 +183,27 @@ System.out.println(ac5.name);
  System.out.println(ac5.movie);
  System.out.println();
         
-	
-System.out.println("UPDATED DATA");	
-
+System.out.println("Updated values");	
 dr1.specialization = "Neurologist";
 dr2.specialization = "Surgeon";
 dr3.specialization = "Physician";
 dr4.specialization = "Radiologist";
 dr5.specialization = "Oncologist";
 
-
 tr1.subject = "Physics";
 tr2.subject = "Chemistry";
 tr3.subject = "Biology";
 tr4.subject = "Geography";
-
 
 po1.rank = "DSP";
 po2.rank = "Inspector";
 po3.rank = "SI";
 po4.rank = "Commissioner";
 
-
 fa1.village = "Hubli";
 fa2.village = "Belgaum";
 fa3.village = "Davangere";
 fa4.village = "Shimoga";
-
 
 ac1.movie = "KGF 2";
 ac2.movie = "Robert";

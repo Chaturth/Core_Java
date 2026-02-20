@@ -69,9 +69,6 @@ public class ApplicationRunner {
         Mobile m4 = new Mobile();
         Mobile m5 = new Mobile();
 
-
-      
-
         s1.name="Arun"; s1.age=20; s1.course="BE"; s1.marks=85;
         s2.name="Riya"; s2.age=21; s2.course="BBA"; s2.marks=90;
         s3.name="Kiran"; s3.age=19; s3.course="BSc"; s3.marks=78;
@@ -103,43 +100,33 @@ public class ApplicationRunner {
         m5.brand="Realme"; m5.model="GT"; m5.storage=256; m5.price=35000;
 
 
-       
-
-        System.out.println("----- INITIAL VALUES -----");
-
+      
 System.out.println(s1.name+" "+s1.age+" "+s1.course+" "+s1.marks);
 System.out.println(s2.name+" "+s2.age+" "+s2.course+" "+s2.marks);
 System.out.println(s3.name+" "+s3.age+" "+s3.course+" "+s3.marks);
 System.out.println(s4.name+" "+s4.age+" "+s4.course+" "+s4.marks);
 System.out.println(s5.name+" "+s5.age+" "+s5.course+" "+s5.marks);
-
 System.out.println();
-
 
 System.out.println(c1.brand+" "+c1.model+" "+c1.year+" "+c1.price);
 System.out.println(c2.brand+" "+c2.model+" "+c2.year+" "+c2.price);
 System.out.println(c3.brand+" "+c3.model+" "+c3.year+" "+c3.price);
 System.out.println(c4.brand+" "+c4.model+" "+c4.year+" "+c4.price);
 System.out.println(c5.brand+" "+c5.model+" "+c5.year+" "+c5.price);
-
 System.out.println();
-
 
 System.out.println(e1.name+" "+e1.id+" "+e1.department+" "+e1.salary);
 System.out.println(e2.name+" "+e2.id+" "+e2.department+" "+e2.salary);
 System.out.println(e3.name+" "+e3.id+" "+e3.department+" "+e3.salary);
 System.out.println(e4.name+" "+e4.id+" "+e4.department+" "+e4.salary);
 System.out.println(e5.name+" "+e5.id+" "+e5.department+" "+e5.salary);
-
 System.out.println();
-
 
 System.out.println(b1.title+" "+b1.author+" "+b1.pages+" "+b1.cost);
 System.out.println(b2.title+" "+b2.author+" "+b2.pages+" "+b2.cost);
 System.out.println(b3.title+" "+b3.author+" "+b3.pages+" "+b3.cost);
 System.out.println(b4.title+" "+b4.author+" "+b4.pages+" "+b4.cost);
 System.out.println(b5.title+" "+b5.author+" "+b5.pages+" "+b5.cost);
-
 System.out.println();
 
 System.out.println(m1.brand+" "+m1.model+" "+m1.storage+" "+m1.price);
@@ -154,11 +141,7 @@ System.out.println(m5.brand+" "+m5.model+" "+m5.storage+" "+m5.price);
         b1.title=" Java"; b1.author="Oracle"; b1.pages=600; b1.cost=1200;
         m1.brand=" Samsung"; m1.model="S24"; m1.storage=512; m1.price=120000;
 
-
-    
-        System.out.println("----- UPDATED VALUES -----");
-
-        System.out.println(s1.name+" "+s1.age+" "+s1.course+" "+s1.marks);
+       System.out.println(s1.name+" "+s1.age+" "+s1.course+" "+s1.marks);
         System.out.println(c1.brand+" "+c1.model+" "+c1.year+" "+c1.price);
         System.out.println(e1.name+" "+e1.id+" "+e1.department+" "+e1.salary);
         System.out.println(b1.title+" "+b1.author+" "+b1.pages+" "+b1.cost);
