@@ -19,12 +19,7 @@ class FMRadioRunner{
 		
 	
 
-        Station.saveStation("Majestic");
-        Station.saveStation("Yeshwanthpur");
-        Station.saveStation(null);
-        Station.saveStation("KR Market");
-
-       FMRadio.displayStations();
+        
     }
 }
 
